@@ -1,9 +1,33 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
 }
 .name{
     color: orange;
+}
+section{
+    display: flex;
+}
+.welcome{
+    width: 50%;
+    padding-left: 5%;
+}
+.welcome img{
+    width: 80%;
+}
+.hire-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: peachpuff;
+    font-weight: 900;
+}
+.part1{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
