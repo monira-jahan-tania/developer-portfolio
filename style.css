@@ -8,8 +8,12 @@ h1{
 .name{
     color: orange;
 }
+p{
+    color:  dimgray;
+}
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .welcome{
     width: 50%;
@@ -30,4 +34,9 @@ section{
 .part1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
